@@ -223,8 +223,6 @@ body {
 }
 .header-link:hover,
 .header-link:focus {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -234,7 +232,6 @@ body {
 
 .header-tel,
 .header-mail {
-  font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -245,8 +242,6 @@ body {
 .header-tel:focus,
 .header-mail:hover,
 .header-mail:focus {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -267,11 +262,9 @@ body {
   clip-path: inset(50%);
   margin: -1px;
 }
-.menu-button {
+.button-item {
   background: #f5f4fa;
   border-radius: 4px;
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
@@ -279,7 +272,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--menu-button-color);
 }
-.menu-button:active {
+.button-item:active {
   background-color: #2196f3;
   color: #ffffff;
 }
