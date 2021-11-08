@@ -17,7 +17,7 @@
   --all-item-type: #757575;
 }
 body {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
 }
 
 .list {
@@ -34,7 +34,7 @@ body {
 
 .header-logo {
   font-family: Raleway;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
@@ -49,8 +49,6 @@ body {
 }
 .header-link:hover,
 .header-link:focus {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -60,7 +58,6 @@ body {
 
 .header-tel,
 .header-mail {
-  font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -71,8 +68,6 @@ body {
 .header-tel:focus,
 .header-mail:hover,
 .header-mail:focus {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -96,7 +91,7 @@ body {
 .hero-header-btn {
   cursor: pointer;
   background-color: #2196f3;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 30px;
   display: flex;
@@ -111,7 +106,7 @@ body {
 .qualities-title2,
 .qualities-title3,
 .qualities-title4 {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
@@ -123,9 +118,7 @@ body {
 .qualities-text2,
 .qualities-text3,
 .qualities-text4 {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 500;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
@@ -134,7 +127,7 @@ body {
 
 /*----------ABOUT----------*/
 .about-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
@@ -144,7 +137,7 @@ body {
 
 /*----------TEAM----------*/
 .team-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
@@ -166,7 +159,7 @@ body {
 .employe-profession2,
 .employe-profession3,
 .employe-profession4 {
-  font-weight: normal;
+  font-weight: 500;
   font-size: 16px;
   line-height: 19px;
   text-align: center;
@@ -179,24 +172,21 @@ body {
   background: #2f303a;
 }
 .adress-geo {
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 500;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: var(--adress-geo-color);
 }
 .adress-mail {
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 500;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: var(--footer-adress-color);
 }
 .adress-tel {
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 500;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
@@ -209,7 +199,7 @@ body {
 
 .header-logo {
   font-family: Raleway;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
@@ -279,14 +269,14 @@ body {
 
 /*----------ALL----------*/
 .all-item-name {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 36px;
   letter-spacing: 0.06em;
   color: var(--all-item-name-color);
 }
 .all-item-type {
-  font-weight: normal;
+  font-weight: 500;
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.03em;
@@ -299,7 +289,7 @@ body {
 }
 .adress-geo {
   font-style: normal;
-  font-weight: normal;
+  font-weight: 500;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
@@ -307,7 +297,7 @@ body {
 }
 .adress-mail {
   font-style: normal;
-  font-weight: normal;
+  font-weight: 500;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
@@ -315,7 +305,7 @@ body {
 }
 .adress-tel {
   font-style: normal;
-  font-weight: normal;
+  font-weight: 500;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
