@@ -31,7 +31,9 @@ body {
 /*-------------------------------------STUDIO---------------*/
 
 /*---------------HEADER---------------*/
-
+.header {
+  background: #ffffff;
+}
 .header-logo {
   font-family: Raleway;
   font-weight: 700;
@@ -111,10 +113,10 @@ body {
 }
 
 /*----------QUALITIES----------*/
-.qualities-title1,
-.qualities-title2,
-.qualities-title3,
-.qualities-title4 {
+.qualities {
+  background: #e5e5e5;
+}
+.qualities-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -122,11 +124,7 @@ body {
   text-transform: uppercase;
   color: var(--qualities-title-color);
 }
-
-.qualities-text1,
-.qualities-text2,
-.qualities-text3,
-.qualities-text4 {
+.qualities-text {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.71;
@@ -135,6 +133,9 @@ body {
 }
 
 /*----------ABOUT----------*/
+.about {
+  background: #e5e5e5;
+}
 .about-title {
   font-weight: 700;
   font-size: 36px;
@@ -145,6 +146,9 @@ body {
 }
 
 /*----------TEAM----------*/
+.team {
+  background: #f5f4fa;
+}
 .team-title {
   font-weight: 700;
   font-size: 36px;
@@ -153,10 +157,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--team-title-color);
 }
-.employe-title1,
-.employe-title2,
-.employe-title3,
-.employe-title4 {
+.employe-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -164,10 +165,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--employe-title-color);
 }
-.employe-profession1,
-.employe-profession2,
-.employe-profession3,
-.employe-profession4 {
+.employe-profession {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -205,7 +203,9 @@ body {
 /*-------------------------------------PORTFOLIO------------*/
 
 /*---------------HEADER---------------*/
-
+.header {
+  background-color: #ffffff;
+}
 .header-logo {
   font-family: Raleway;
   font-weight: 700;
@@ -250,6 +250,9 @@ body {
 }
 
 /*----------MENU----------*/
+.menu {
+  background: #e5e5e5;
+}
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
