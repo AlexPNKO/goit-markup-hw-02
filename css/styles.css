@@ -31,7 +31,7 @@ body {
 /*-------------------------------------STUDIO---------------*/
 
 /*---------------HEADER---------------*/
-.header {
+.body {
   background: #ffffff;
 }
 .header-logo {
@@ -113,9 +113,7 @@ body {
 }
 
 /*----------QUALITIES----------*/
-.qualities {
-  background: #e5e5e5;
-}
+
 .qualities-title {
   font-weight: 700;
   font-size: 14px;
@@ -133,9 +131,7 @@ body {
 }
 
 /*----------ABOUT----------*/
-.about {
-  background: #e5e5e5;
-}
+
 .about-title {
   font-weight: 700;
   font-size: 36px;
@@ -148,6 +144,9 @@ body {
 /*----------TEAM----------*/
 .team {
   background: #f5f4fa;
+}
+.team-item {
+  background: #ffffff;
 }
 .team-title {
   font-weight: 700;
@@ -203,8 +202,8 @@ body {
 /*-------------------------------------PORTFOLIO------------*/
 
 /*---------------HEADER---------------*/
-.header {
-  background-color: #ffffff;
+.body {
+  background: #ffffff;
 }
 .header-logo {
   font-family: Raleway;
@@ -250,9 +249,6 @@ body {
 }
 
 /*----------MENU----------*/
-.menu {
-  background: #e5e5e5;
-}
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -281,6 +277,9 @@ body {
 }
 
 /*----------ALL----------*/
+.all-item {
+  background: #ffffff;
+}
 .all-item-name {
   font-weight: 700;
   font-size: 18px;
