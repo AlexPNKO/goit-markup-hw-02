@@ -36,14 +36,20 @@ body {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--header-logo-color);
+}
+.header-logo-studio {
+  color: #212121;
+}
+.footer-logo-studio {
+  color: #ffffff;
 }
 .header-link {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--header-link-color);
 }
@@ -51,7 +57,7 @@ body {
 .header-link:focus {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #2196f3;
 }
@@ -60,7 +66,7 @@ body {
 .header-mail {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--header-adress-color);
 }
@@ -70,7 +76,7 @@ body {
 .header-mail:focus {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #2196f3;
 }
@@ -82,7 +88,7 @@ body {
 .hero-pre-title {
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -93,7 +99,7 @@ body {
   background-color: #2196f3;
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
   display: flex;
   align-items: center;
   text-align: center;
@@ -108,7 +114,7 @@ body {
 .qualities-title4 {
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--qualities-title-color);
@@ -120,7 +126,7 @@ body {
 .qualities-text4 {
   font-weight: 500;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--qualities-text-color);
 }
@@ -129,7 +135,7 @@ body {
 .about-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--about-title-color);
@@ -139,7 +145,7 @@ body {
 .team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--team-title-color);
@@ -150,7 +156,7 @@ body {
 .employe-title4 {
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--employe-title-color);
@@ -161,7 +167,7 @@ body {
 .employe-profession4 {
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--employe-profession-color);
@@ -174,21 +180,21 @@ body {
 .adress-geo {
   font-weight: 500;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--adress-geo-color);
 }
 .adress-mail {
   font-weight: 500;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--footer-adress-color);
 }
 .adress-tel {
   font-weight: 500;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--footer-adress-color);
 }
@@ -201,14 +207,14 @@ body {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--header-logo-color);
 }
 .header-link {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--header-link-color);
 }
@@ -216,7 +222,7 @@ body {
 .header-link:focus {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #2196f3;
 }
@@ -225,7 +231,7 @@ body {
 .header-mail {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--header-adress-color);
 }
@@ -235,7 +241,7 @@ body {
 .header-mail:focus {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #2196f3;
 }
@@ -257,12 +263,13 @@ body {
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--menu-button-color);
 }
-.menu-btn-item:hover {
+.menu-btn-item:hover,
+.menu-btn-item:focus {
   background-color: #2196f3;
   color: #ffffff;
 }
@@ -271,14 +278,14 @@ body {
 .all-item-name {
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
   color: var(--all-item-name-color);
 }
 .all-item-type {
   font-weight: 500;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--all-item-type);
 }
@@ -291,7 +298,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--adress-geo-color);
 }
@@ -299,7 +306,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--footer-adress-color);
 }
@@ -307,7 +314,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--footer-adress-color);
 }
